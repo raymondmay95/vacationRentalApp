@@ -1,0 +1,6 @@
+.Home {
+   width: 96vw;
+   height: 95vh;
+   margin: 0;
+   background-color: var(--secondary-bg-color);
+}

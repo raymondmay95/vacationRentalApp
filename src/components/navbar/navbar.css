@@ -1,0 +1,5 @@
+a {
+   color: var(--nav-text-color) !important;
+   border-bottom: 1px solid gray;
+   text-indent: 1rem;
+}
