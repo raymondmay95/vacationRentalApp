@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
             </div>
          </nav>
       {displayDropDown && (
-         <nav className="nav-bar position-absolute" style={{width:"97%", backgroundColor:"var(--nav-dropdown-bg-color)"}}>
+         <nav className="nav-bar position-absolute" style={{width:"97%", backgroundColor:"var(--nav-dropdown-bg-color)", zIndex:1}}>
             <a className="nav-link" href="/resorts">Resorts</a>
             <a className="nav-link" href="/covid_19">COVID-19 Updates</a>
             <a className="nav-link" href="/search">Search</a>

@@ -30,9 +30,18 @@ const today = ():string => {
 
 const todaysDate = today()
 
+interface IState {
+   formData : {
+      resortSelection: string,
+      numberOfBedRooms: number,
+      tripStart: string,
+      tripEnd: string
+   }
+}
+
 const Search: React.FC = () => {
 
-   const [formData, setFormData] = useState<object>({
+   const [formData, setFormData] = useState<IState["formData"]>({
       resortSelection: "",
       numberOfBedRooms: 0,
       tripStart: todaysDate,
